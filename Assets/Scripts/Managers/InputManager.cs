@@ -27,5 +27,6 @@ public class InputManager : MonoBehaviour
         if (!isTabPressed && !Inputs.MouseLock && Input.GetMouseButtonDown(0)) {
             Inputs.MouseLock = true;
         }
+		Debug.Log(GameManager.a);
     }
 }
